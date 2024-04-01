@@ -36,7 +36,7 @@ body{
   position: absolute;
   z-index: 1;
   top: 35px;
-  left: 376px;
+  left: 368px;
 }
 
 .s-bar{
@@ -135,6 +135,7 @@ body{
   background-color: #F2F2F2;
   outline: none;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .profile-img-posting{
@@ -187,7 +188,8 @@ body{
 .see-more{
   position: absolute;
   top: 505px;
-  left: 90px;
+  left: 80px;
+  font-size: 22px;
 }
 
 .see-more h6{
@@ -209,6 +211,11 @@ body{
   display: flex;
   align-items: center;
   margin-bottom: 12px;
+}
+
+.group-items:hover{
+  background-color: #F3F5F7;
+  width: 200px;
 }
 
 .group-items img{
