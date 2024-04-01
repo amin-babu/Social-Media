@@ -18,7 +18,7 @@ body{
 }
 
 .logo img{
-  height: 45px;
+  height: 48px;
 }
 
 .search-bar input{
@@ -35,8 +35,8 @@ body{
 .s-icon{
   position: absolute;
   z-index: 1;
-  top: 34px;
-  left: 396px;
+  top: 35px;
+  left: 368px;
 }
 
 .s-bar{
@@ -55,7 +55,9 @@ body{
 
 .option-img img{
   height: 33px;
-  margin-left: 18px;
+  margin-left: 16px;
+  border: 2px solid #d4bbbb;
+  border-radius: 50%;
 }
 
 .options i{
@@ -66,3 +68,112 @@ body{
   margin-left: 18px;
 }
 
+/* ----------------------------------------------
+------------left side option style---------------
+-----------------------------------------------*/
+
+.header-column-style{
+  display: flex;
+}
+
+.left-side-option-bar {
+  padding: 30px 60px;
+  display: flex;
+  font-size: 20px;
+}
+
+.option-icons i{
+  display: block;
+  margin-bottom: 18px;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 15px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+}
+
+.option-column p{
+  font-weight:550;
+  margin-bottom: 29px;
+  align-items: center;
+}
+
+.option-column p:hover{
+  width: 100px;
+  background-color: #E9EBED;
+}
+
+/*---------------------------
+------post bar styling-------
+---------------------------*/
+
+.post-bar{
+  padding: 15px 20px;
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  height: 100px;
+  margin: 20px 165px;
+  align-items: center;
+}
+
+.post-bar hr{
+  width: 395px;
+  margin: 11px 0;
+  border: 1px solid #F3F5F7;
+}
+
+.post-now input{
+  border: none;
+  width: 300px;
+  padding: 10px 20px;
+  background-color: #F2F2F2;
+  outline: none;
+  border-radius: 20px;
+}
+
+.profile-img-posting{
+  align-items: center;
+  display: flex;
+}
+
+.profile-img-posting img{
+  height: 47px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-option {
+  width: 400px;
+  display: flex;
+}
+
+.post-option-items{
+  display: flex;
+  margin-right: 15px;
+  margin-top: 0;
+  width: 520px;
+  cursor: pointer;
+  padding: 4px;
+  transition: 0.5s;
+}
+
+.post-option-items:hover{
+  background-color: #F3F5F7;
+  padding: 4px;
+  border-radius: 4px;
+  
+}
+
+.post-option-items p{
+  width: 57px;
+  font-weight:600;
+}
+
+.post-option i{
+  margin-top: 2px;
+  margin-right: 6px;
+}
