@@ -8,13 +8,15 @@ body{
   background-color: #F2F2F2;
 }
 
-.header-container{
+#header-container{
   padding: 20px 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
   background-color: white;
+  position: sticky;
+
 }
 
 .logo img{
@@ -112,7 +114,7 @@ body{
 ------post bar styling-------
 ---------------------------*/
 
-.post-bar{
+.post-column1{
   padding: 15px 20px;
   background-color: white;
   width: 450px;
@@ -227,4 +229,121 @@ body{
 .group-items h6{
   font-size: 15px;
   font-weight: 600;
+}
+
+/*----------------------------
+------user post section-------
+----------------------------*/
+
+
+.post-column2{
+  height:393px;
+  width: 445px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 22px;
+  left: 445px;
+  margin-left: 158px;
+  margin-bottom: 20px;
+}
+
+.img-item{
+  display: flex;
+  align-items: center;
+}
+
+.img-item img{
+  height: 47px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.id-name-time h4{
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.id-name-time p{
+  font-size: 12px;
+}
+
+.lst-layer-of-user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-status-image{
+  margin-top: 10px;
+}
+
+.post-status-image p{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.post-status-image img{
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.react-comment{
+  display: flex;
+  align-items: center;
+}
+
+.reactions{
+  display: flex;
+}
+
+.react-part1{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+
+.react-part1 i{
+  margin-right: 7px;
+}
+
+.comments{
+  display: flex;
+  align-items: center;
+}
+
+.comments input{
+  background-color: #F2F2F2;
+  padding: 5px 15px;
+  margin-top: 10px;
+  border: none;
+  width: 220px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input1{
+  position: relative;
+}
+
+.comment-icons {
+  position: absolute;
+  top: 2px;
+  margin-top: 630px;
+  margin-left: 198px;
+}
+
+.comment-icons i{
+  margin-left: 5px;
+}
+
+.post-column2 hr{
+  width: 440px;
+  margin: 12px 0;
+  border: 1px solid #F3F5F7;
+}
+
+.post-main{
+  display: block;
 }

@@ -13,7 +13,7 @@
 </head>
 <body>
   <header>
-    <div class="header-container">
+    <div id="header-container">
       <div class="logo">
         <img src="images/logo.png" alt="">
       </div>
@@ -95,23 +95,81 @@
       <!-- Postbar section -->
   
       <div class="post-bar">
-        <div class="profile-img-posting">
-          <img src="images/images.jpeg" alt="">
-          <div class="post-now">
-            <input type="text" placeholder="What on your mind?">
+        <div class="post-column1">
+          <div class="profile-img-posting">
+            <img src="images/images.jpeg" alt="">
+            <div class="post-now">
+              <input type="text" placeholder="What on your mind?">
+            </div>
+          </div>
+    
+          <hr>
+    
+          <div class="post-option">
+            <div class="post-option-items"><i style="color: #FCA079;" class="fa-solid fa-video"></i><p> Go Live</p></div>
+            <div class="post-option-items"><i style="color: #1F9653;" class="fa-solid fa-image"></i><p> Photos</p></div>
+            <div class="post-option-items"><i style="color: #E74483;" class="fa-solid fa-file-video"></i><p> Video</p></div>
+            <div class="post-option-items"><i style="color: #1691D7;" class="fa-solid fa-face-smile"></i><p> Feeling</p></div>
           </div>
         </div>
-  
-        <hr>
-  
-        <div class="post-option">
-          <div class="post-option-items"><i style="color: #FCA079;" class="fa-solid fa-video"></i><p> Go Live</p></div>
-          <div class="post-option-items"><i style="color: #1F9653;" class="fa-solid fa-image"></i><p> Photos</p></div>
-          <div class="post-option-items"><i style="color: #E74483;" class="fa-solid fa-file-video"></i><p> Video</p></div>
-          <div class="post-option-items"><i style="color: #1691D7;" class="fa-solid fa-face-smile"></i><p> Feeling</p></div>
-        </div>
+
+        <!-- user post section -->
+
+   
+          <div class="post-column2">
+            
+              <div class="lst-layer-of-user">
+                <div class="img-item">
+                  <img src="images/profile-pic (2).png" alt="">
+    
+                  <div class="id-name-time">
+                    <h4>Iskandor Mirja</h4>
+                    <p>4 Hours age</p>
+                  </div>
+                </div>
+      
+                <div class="3-dod">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+    
+              <div class="post-status-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aut dolor!</p>
+                <img src="images/post.jpg" alt="">
+              </div>
+    
+              <div class="react-comment">
+                <div class="reactions">
+                  <div class="react-part1">
+                    <i style="color: red;" class="fa-solid fa-heart"></i>
+                    <p>1.1K</p>
+                  </div>
+      
+                  <div class="react-part1">
+                    <i style="color: #1691D7;" class="fa-solid fa-comment"></i>
+                    <p>200</p>
+                  </div>
+      
+                  <div class="react-part1">
+                    <i style="color: orange;" class="fa fa-light fa-share"></i>
+                    <p>18</p>
+                  </div>
+                </div>
+    
+                <div class="comments">             
+                    <input type="text" name="" id="" placeholder="Write your comment">
+                    <div class="comment-icons">
+                      <i style="color: #118F47;" class="fa fa-thin fa-camera"></i>
+                      <i style="color: #FFA500;" class="fa-regular fa-face-laugh-squint"></i>
+                    </div>                           
+                </div>
+              </div>    
+              <hr>       
+          </div> 
       </div>
     </div>
   </main>
+  
+  <script src="script.js"></script>
 </body>
 </html>
